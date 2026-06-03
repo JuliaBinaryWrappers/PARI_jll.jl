@@ -1,0 +1,17 @@
+name = "PARI_jll"
+uuid = "84859880-2197-580f-a1bb-08b6236e0e08"
+version = "2.17.3+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.7.0"
+julia = "1.6"
+GMP_jll = "6.2.1"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"

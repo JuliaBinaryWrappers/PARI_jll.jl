@@ -1,0 +1,160 @@
+[[PARI]]
+arch = "aarch64"
+git-tree-sha1 = "b2884165ceb21d0b372433e8f11db564d3b8f52e"
+os = "macos"
+
+    [[PARI.download]]
+    sha256 = "34ee34d73c92dd8f5d0f270468b3d172114e844741b970a62084a2c0f7ad61bc"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.aarch64-apple-darwin.tar.gz"
+[[PARI]]
+arch = "aarch64"
+git-tree-sha1 = "7bc3cc95c29855bbe002973d1eb1509c69b9a513"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "7b0fd171e1ff807ddb2b55aaa1d99b419ad61ca24a9f19dd5948f85e45fd32b9"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.aarch64-linux-gnu.tar.gz"
+[[PARI]]
+arch = "aarch64"
+git-tree-sha1 = "0f8847f263c0d5ee46be2b7d741dfd82f3dab416"
+libc = "musl"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "9220b7b2887c7bcd61e0e56457370d3d2d74caa30713f0c2aa33dfd0f6fe368a"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.aarch64-linux-musl.tar.gz"
+[[PARI]]
+arch = "aarch64"
+git-tree-sha1 = "1b7aa82a57f7d58bb5308dc64a621698bbb011cd"
+os = "freebsd"
+
+    [[PARI.download]]
+    sha256 = "120cf5f7016f24b188b3fea0b3dc33b1498e8a894bac57d2c5f3044afeb501dd"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.aarch64-unknown-freebsd.tar.gz"
+[[PARI]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c76bf41d396364cf15443b75f3a0623321c42b33"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "60e39c29586ffb1d423e44185388747f20c5e818c0e64171cb5a8b5954fa8913"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.armv6l-linux-gnueabihf.tar.gz"
+[[PARI]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a1ff8f47e040af4bee9436f87e70c4b583d8e441"
+libc = "musl"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "ca0501689f559e7807b70debd78cc0ca1f8c0b84c116b6a3424b74e44e7ad48c"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.armv6l-linux-musleabihf.tar.gz"
+[[PARI]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "3b64833b4b3b1a8a6bbd68793f33f742eaf4331a"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "444dc78ff09d174267297255eba40180ed4d2be76400bd03e6c1c1d2aeb7ab95"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.armv7l-linux-gnueabihf.tar.gz"
+[[PARI]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c9b4ea881f1c6e86b5cd6b86f1b7c00586173154"
+libc = "musl"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "5c9efe3ced5dd4261174f699b96ae8382c5569b3b54f7105abebd69a5bdd0162"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.armv7l-linux-musleabihf.tar.gz"
+[[PARI]]
+arch = "i686"
+git-tree-sha1 = "07ff66f150e2f04269c8cda55d371489f29160e6"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "413d9fd6614d34baaf9872f1b12e4741d1f38c66fbdc052475eb4cacceb0af3f"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.i686-linux-gnu.tar.gz"
+[[PARI]]
+arch = "i686"
+git-tree-sha1 = "16594504824182e5956dab783bd65a300521262c"
+libc = "musl"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "ba2948a98cac5b33a63ac75a5e0697c526b7fde2d50735b9ecc6e2ec4d2cfe4e"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.i686-linux-musl.tar.gz"
+[[PARI]]
+arch = "i686"
+git-tree-sha1 = "c77cdbc4a65d3638cb2f1a33fbdb091831c79fe7"
+os = "windows"
+
+    [[PARI.download]]
+    sha256 = "080173f2069158b7553e353a411b347d32321dcddd9b3045896172c3b14e58d1"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.i686-w64-mingw32.tar.gz"
+[[PARI]]
+arch = "powerpc64le"
+git-tree-sha1 = "efcb275333957ee065cf49b82c4e6adcd0719806"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "28055ee4fa998dad8fb055640e6b3151ef4706eb253e4d2f628752140c4e407d"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.powerpc64le-linux-gnu.tar.gz"
+[[PARI]]
+arch = "riscv64"
+git-tree-sha1 = "ba04dabeb3128c0d5498a61f00d3ee388a733d83"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "93d071fbc0164ef6f017b2a801e619c647cd915311754ce399941fe792722cd6"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.riscv64-linux-gnu.tar.gz"
+[[PARI]]
+arch = "x86_64"
+git-tree-sha1 = "e45f321094a9734b12150845781c50890200a1c4"
+os = "macos"
+
+    [[PARI.download]]
+    sha256 = "529baf4c26c2d311a1e5bf8a4f1d0718be01b5f18b53827050875b0058632f34"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.x86_64-apple-darwin.tar.gz"
+[[PARI]]
+arch = "x86_64"
+git-tree-sha1 = "c2f28d63738b5121241ef1bd869894248e3952d1"
+libc = "glibc"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "abe4f4941154bbb71d2d738e684e4aeaecdfa670023e8e6ab7ed75c1863a19e2"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.x86_64-linux-gnu.tar.gz"
+[[PARI]]
+arch = "x86_64"
+git-tree-sha1 = "587b7d401922b3869f77a46090a760e4ee1d28a2"
+libc = "musl"
+os = "linux"
+
+    [[PARI.download]]
+    sha256 = "a2a87402463ec07a158869dc5bf2eaaba2afea1e70441e53d2ced3c85cc79480"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.x86_64-linux-musl.tar.gz"
+[[PARI]]
+arch = "x86_64"
+git-tree-sha1 = "0fabe7e1045632e7499469be538c701666852e82"
+os = "freebsd"
+
+    [[PARI.download]]
+    sha256 = "556f7151ef51dd20fc3e67e4087aeaf2faeb652c63af48820db7ecdd339c8ba8"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.x86_64-unknown-freebsd.tar.gz"
+[[PARI]]
+arch = "x86_64"
+git-tree-sha1 = "6ca3941b99b9d5e4a81770616b164968ec56a778"
+os = "windows"
+
+    [[PARI.download]]
+    sha256 = "dcda4b1acb62dd84ec39132a71366992107671f8571d96b5cdce4574628a9cc6"
+    url = "https://github.com/JuliaBinaryWrappers/PARI_jll.jl/releases/download/PARI-v2.17.3+0/PARI.v2.17.3.x86_64-w64-mingw32.tar.gz"
