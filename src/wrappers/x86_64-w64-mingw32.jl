@@ -4,20 +4,20 @@ export gp, libpari, pari_desc
 using GMP_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("PARI")
-JLLWrappers.@declare_library_product(libpari, "libpari.dll")
 JLLWrappers.@declare_executable_product(gp)
+JLLWrappers.@declare_library_product(libpari, "libpari.dll")
 JLLWrappers.@declare_file_product(pari_desc)
 function __init__()
     JLLWrappers.@generate_init_header(GMP_jll, CompilerSupportLibraries_jll)
+    JLLWrappers.@init_executable_product(
+        gp,
+        "bin\\gp.exe",
+    )
+
     JLLWrappers.@init_library_product(
         libpari,
         "bin\\libpari.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_executable_product(
-        gp,
-        "bin\\gp.exe",
     )
 
     JLLWrappers.@init_file_product(
